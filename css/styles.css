@@ -1,67 +1,97 @@
 body {
-    font-family: 'Roboto', 'Verdana', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 2%;
-    color: 434455;
-}
-header {
-    background-color: FFFFFF;
-}
-h2, h3 {
-    color: 2E2F42;
-}
-h1 {
-    color: white;
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
-}
-h2 {
-font-weight: 700;
-font-size: 36px;
-letter-spacing: 2%;
-}
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 2%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  color: #434455;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
-.nav-menu .nav-logo {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 18px;
+a {
+  text-decoration: none;
+}
 
+h2,
+h3 {
+  color: #2e2f42;
 }
-.nav-menu .nav-links a {
-font-size: 16px;
-font-weight: 500;
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
 }
-.nav-menu .nav-links a:hover {
-    color: 4D5AE5;
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
 }
-.address .address-links {
-    color: 434455;
-    font-size: 16px;
-    font-weight: 400;
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
 }
-.address .address-links:hover, .address .address-links:active {
-    color: 4D5AE5;
+
+.nav-logo {
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  color: #4d5ae5;
+}
+.logo-color {
+  color: #2e2f42;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #4d5ae5;
+}
+.address-link {
+  font-style: normal;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #4d5ae5;
 }
 
 .main {
-    background-color: 2E2F42;
+  background-color: #2e2f42;
 }
-.benefits {
-    background-color: FFFFFF;
+.main-button {
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
+
 .team {
-    background-color: F4F4FD;
+  background-color: #f4f4fd;
 }
-.portfolio {
-    background-color: FFFFFF;;
+.footer {
+  background-color: #2e2f42;
+}
+.logo-newcolor {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
 }
