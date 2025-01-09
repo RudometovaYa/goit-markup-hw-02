@@ -14,11 +14,11 @@ a {
   text-decoration: none;
 }
 
-h2,
-h3 {
+.subtitle,
+.card-title {
   color: #2e2f42;
 }
-h1 {
+.main-title {
   color: white;
   font-weight: 700;
   font-size: 56px;
@@ -26,7 +26,7 @@ h1 {
   line-height: 1.07;
   text-align: center;
 }
-h2 {
+.subtitle {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -34,7 +34,7 @@ h2 {
   text-transform: capitalize;
   letter-spacing: 0.02em;
 }
-h3 {
+.card-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
